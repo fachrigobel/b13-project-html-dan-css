@@ -115,7 +115,7 @@ header {
 
 .item-list:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 5px;
-    top: 3px;
+    transform: translate3d(0, -1px, 0);
     transition: all 0.5s;
 }
 
