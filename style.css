@@ -157,3 +157,63 @@ header {
     margin-right: 5px;
 }
 /* Sampai disini */
+
+
+
+/* awal code brata */
+
+.footer {
+
+    background-color: #2f5167;
+
+
+    color: #fff;
+
+
+    height: 120px;
+
+
+    padding: 40px;
+
+}
+
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+
+
+.footer-list h2 {
+    float: right;
+    padding-right: 50px;
+    margin-right: 50px;
+
+
+}
+
+.footer-list li {
+    padding-top: 20px;
+    list-style: none;
+    /* float: left; */
+    margin-right: 122px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+footer {
+    margin: 0 122px;
+}
+
+footer p {
+    float: right;
+}
+
+
+/* akhir code brata */
+
