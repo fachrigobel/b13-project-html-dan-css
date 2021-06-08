@@ -103,7 +103,7 @@ header {
 
 .item-list {
     flex: auto;
-    padding: 43px 0;
+    padding-top: 43px;
     margin-right: 25px;
     margin-bottom: 25px;
     width: 25%;
