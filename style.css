@@ -77,6 +77,19 @@ header {
 }
 /* Sampai disini*/
 /* Code css Fachri dari sini */
+.heading {
+    padding-top: 48px;
+    margin-bottom: 24px;
+    display: flex;
+}
+
+.heading span {
+    display: inline-block;
+    color: #2b546a;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
 .items {
     display:flex;
     text-align: center;
@@ -85,11 +98,19 @@ header {
 .item-list {
     flex: auto;
     padding: 43px 0;
-    border: 1px solid black;
     margin-right: 25px;
     margin-bottom: 25px;
     width: 25%;
     cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 0px;
+    position: relative;
+}
+
+.item-list:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 5px;
+    top: 3px;
+    transition: all 0.5s;
 }
 
 .heading-title {
@@ -118,9 +139,12 @@ header {
     color: #2b546a;
     font-size: 0.75rem;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.book-icon {
+.list-study img {
     margin-right: 5px;
 }
 /* Sampai disini */
