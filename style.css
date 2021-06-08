@@ -1,1 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+    margin: 0 122px;
+}
+
+/* Diatas biarin aja jika tidak diperlukan */
