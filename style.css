@@ -38,13 +38,25 @@ header {
 	color: rgb(103, 116, 138);
 	line-height: 40px;
 	padding: 0 25px;
-	display: block;
+	display: inline-block;
 	float: left;
-	transition: all 0.5s;
+	position: relative;
 }
-.header-left a:hover {
-	background-color: rgba(30,52,87,0.9);
-	color: white;
+.header-left a:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: absolute;
+	background: rgba(193,207,230,0.8);
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0
+}
+.header-left a:hover:after {
+	width: 100%;
+	left: 0;
 }
 .header-right {
 	float: right;
