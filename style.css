@@ -16,7 +16,54 @@ body {
 }
 /* Diatas biarin aja jika tidak diperlukan */
 /* --------------------------------------- */
-
+/* Code css Dinda dari sini*/
+header {
+	height: 40px;
+	width: 100%;
+	background-color: rgba(245, 247, 250, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.header-container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+.header-left {
+	float: left;
+}
+.header-left a {
+	color: rgb(103, 116, 138);
+	line-height: 40px;
+	padding: 0 25px;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+}
+.header-left a:hover {
+	background-color: rgba(30,52,87,0.9);
+	color: white;
+}
+.header-right {
+	float: right;
+	margin-right: -25px;
+	overflow: hidden;
+}
+.header-right a {
+	line-height: 40px;
+	padding: 0 25px;
+	color: rgb(103, 116, 138);
+	display: block;
+	float: left;
+	transition: all 0.5s;
+}
+.header-right a:hover {
+	background-color: rgba(193,207,230,0.5);
+	
+}
+/* Sampai disini*/
 /* Code css Fachri dari sini */
 .items {
     display:flex;
