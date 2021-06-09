@@ -178,71 +178,46 @@ header {
 
 
 /* awal code brata */
-
-.footer {
-
-    background-color: #2f5167;
-
-
-    color: #fff;
-
-
-    height: 200px;
-
-
-    padding: 40px;
-    border-radius: 4px;
+footer {
+    background-color: #fff;
+    height: 300px;
 }
 
-
 .footer-logo {
-    font-size: 32px;
     float: left;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.copyright {
+    display: flex;
+    color: #2b546a;
+    margin-top: 150px;
+    font-size: 0.7rem;
+}
+
+.lists {
+    float: right;
+    display: flex;
 }
 
 .footer-list {
-    float: left;
-    margin-left: 40px;
-    margin-bottom: -80px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 30px;
+    padding: 15px 30px;
+    color: #2b546a;
 
 }
 
-
-
-.footer-list h2 {
-    float: right;
-    font-size: 20px;
-    padding-right: 80px;
-    margin-right: 0px;
-    margin-top: 0px;
-
-
+.footer-list h3 {
+    font-weight: normal;
 }
 
-.footer-list li {
-    /* padding-top: 20px;
-    list-style: none;
-    float: right;
-    margin-right: 122px;
-    font-size: 18px;
-    padding-top: 10px; */
-
-    list-style: none;
-    margin-top: 20px;
-    font-size: 12px;
-    margin-right: 90px;
-
-
+.footer-list p {
+    font-size: 0.7rem;
 }
-
-footer {
-    margin: 0 122px;
-}
-
-footer p {
-    float: left;
-    margin-right: 500px;
-}
-
-
 /* akhir code brata */
