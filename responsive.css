@@ -12,6 +12,7 @@
         display: block;
         position: relative;
         padding-bottom: 50px;
+        border-radius: 0;
     }
 
     .main-content-left {
@@ -71,6 +72,7 @@
     .item-list {
         width: 100%;
         margin-right: 0;
+        border-radius: 0;
     }
 
     .heading-title {
