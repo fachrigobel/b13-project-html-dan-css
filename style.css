@@ -119,6 +119,7 @@ header {
 
 .items {
     display:flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -127,7 +128,7 @@ header {
     padding-top: 43px;
     margin-right: 25px;
     margin-bottom: 25px;
-    width: 25%;
+    width: 20%;
     cursor: pointer;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 0px;
