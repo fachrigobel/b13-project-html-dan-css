@@ -19,6 +19,10 @@ body {
 /* --------------------------------------- */
 /* main dari sini */
 
+main {
+    margin-top: 60px;
+}
+
 .main-contents {
     background-color: #fff;
     border-radius: 5px;
