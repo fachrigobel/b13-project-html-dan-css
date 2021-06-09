@@ -92,6 +92,7 @@
 
     .container {
         margin: 0 0;
+        margin-bottom: 50px;
     }
     /* sampai disini */
 
@@ -123,6 +124,7 @@
         position: absolute;
         width: 100%;
         display: block;
+        opacity: 0.8;
     }
     /* sampai disini */
 }
