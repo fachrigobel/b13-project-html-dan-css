@@ -170,11 +170,11 @@ header {
     color: #fff;
 
 
-    height: 120px;
+    height: 200px;
 
 
     padding: 40px;
-
+    border-radius: 4px;
 }
 
 
@@ -184,26 +184,38 @@ header {
 }
 
 .footer-list {
-    float: right;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: -80px;
+
 }
 
 
 
 .footer-list h2 {
     float: right;
-    padding-right: 50px;
-    margin-right: 50px;
+    font-size: 20px;
+    padding-right: 80px;
+    margin-right: 0px;
+    margin-top: 0px;
 
 
 }
 
 .footer-list li {
-    padding-top: 20px;
+    /* padding-top: 20px;
     list-style: none;
-    /* float: left; */
+    float: right;
     margin-right: 122px;
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 10px; */
+
+    list-style: none;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-right: 90px;
+
+
 }
 
 footer {
@@ -211,9 +223,9 @@ footer {
 }
 
 footer p {
-    float: right;
+    float: left;
+    margin-right: 500px;
 }
 
 
 /* akhir code brata */
-
