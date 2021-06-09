@@ -52,7 +52,7 @@
     .main-content-right {
         width: 200px;
         margin-left: 40px;
-        position: absolute;
+        position: relative;
      }
 
     .item-list {
