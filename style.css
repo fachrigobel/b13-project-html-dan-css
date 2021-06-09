@@ -40,6 +40,7 @@ header {
 	padding: 0 25px;
 	display: inline-block;
 	position: relative;
+	text-decoration: none;
 }
 .header-left-nav a:after {
 	background: none repeat scroll 0 0 transparent;
@@ -82,6 +83,7 @@ header {
 	overflow: hidden;
 }
 .header-right a {
+	text-decoration: none;
 	line-height: 40px;
 	padding: 0 25px;
 	color: rgb(103, 116, 138);
