@@ -17,6 +17,66 @@ body {
 }
 /* Diatas biarin aja jika tidak diperlukan */
 /* --------------------------------------- */
+/* main dari sini */
+
+.main-contents {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-right: 25px;
+    display: flex;
+    padding: 100px 72px;
+    cursor: pointer;
+}
+
+.main-contents:hover {
+    transition: all 0.5s;
+    transform: translate3d(0, -1px, 0);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 10px 5px;
+}
+
+.main-content-left {
+    flex: auto;
+    width: 20%;
+}
+
+.main-content-left h1 {
+    color: #2b546a;
+    font-size: 32px;
+}
+
+.main-content-left h3 {
+    font-size: 16px;
+    color: #5876a3;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.main-study {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    background-color: rgba(186,198,211,0.18);
+    border-radius: 5px;
+}
+
+.main-study p {
+    flex: auto;
+    padding: 10px 16px;
+    font-size: 12px;
+}
+
+.main-study p img {
+    float: left;
+    margin-right: 4px;
+}
+
+.main-content-right {
+    width: 300px;
+    margin-left: 110px;
+}
+/* sampai disini */
+
 /* Code css Dinda dari sini*/
 header {
 	height: 40px;
