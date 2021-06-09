@@ -27,23 +27,21 @@ header {
 	z-index: 10;
 }
 .header-container {
-	max-width: 1170px;
 	width: 100%;
 	padding: 0;
 	margin: 0 auto;
 }
-.header-left {
+.header-left-nav {
 	float: left;
 }
-.header-left a {
+.header-left-nav a {
 	color: rgb(103, 116, 138);
 	line-height: 40px;
 	padding: 0 25px;
 	display: inline-block;
-	float: left;
 	position: relative;
 }
-.header-left a:after {
+.header-left-nav a:after {
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
 	content: "";
@@ -51,17 +49,36 @@ header {
 	height: 2px;
 	left: 50%;
 	position: absolute;
-	background: rgba(193,207,230,0.8);
+	background: rgba(85, 107, 143, 0.8);
 	transition: width 0.3s ease 0s, left 0.3s ease 0s;
 	width: 0
 }
-.header-left a:hover:after {
+.header-left-nav a:hover:after {
 	width: 100%;
 	left: 0;
 }
+.header-logo {
+	transition: all 0.2s ease;
+	float:left;
+	padding: 0 12px;
+	background-color: rgba(85, 107, 143, 0.8);
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.header-logo img {
+	width: 90%;
+	vertical-align: middle;
+	max-width: 100%;
+	height: 40px;
+	border: 0;
+}
+.header-logo:hover{
+	background-color: rgba(45, 195, 233, 0.767);
+}
 .header-right {
 	float: right;
-	margin-right: -25px;
+	margin-right: 25px;
 	overflow: hidden;
 }
 .header-right a {
