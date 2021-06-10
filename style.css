@@ -94,6 +94,7 @@ header {
 	top: 0;
 	z-index: 10;
 }
+
 .header-container {
 	width: 100%;
 	padding: 0;
@@ -290,16 +291,5 @@ footer {
 
 .footer-list p {
     font-size: 0.7rem;
-}
-
-.header__bars {
-    color: #2b546a;
-    float: right;
-    font-size: 2.2em;
-    cursor: pointer;
-    line-height: 48px;
-    padding: 5px 10px;
-    display: none;
-    transition: background-color 0.2s ease;
 }
 /* akhir code brata */
