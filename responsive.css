@@ -74,8 +74,46 @@
 
 /* Untuk Smartphone */
 @media screen and (max-width: 670px) {
-  
+    /* bagian header dari sini */
+
+    .header-left-nav {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .humberger {
+        float: right;
+        /* border: 1px solid black; */
+        line-height: 40px;
+        width: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .humberger:hover {
+        background-color: rgba(193,207,230,0.5);
+    }
+
+    .humberger a {
+        color: rgb(103, 116, 138);
+    }
+
+    .humberger span {
+        font-size: 20px;
+    }
+
+    /* sampai disini */
+
     /* bagian main dari sini */
+    main {
+        margin-top: 20px;
+    }
+    
     .main-contents {
         margin-right: 0;
         display: block;
@@ -131,14 +169,13 @@
         left: 0; 
         right: 0; 
         top: 15px;
-        padding-top: 25px;
         margin-left: auto; 
         margin-right: auto;
     }
 
     /* sampai disini */
 
-    /* Bagian body/content dari sini */
+    /* Bagian body/main dari sini */
     .item-list {
         width: 100%;
         margin-right: 0;
