@@ -82,6 +82,10 @@ main {
 /* sampai disini */
 
 /* Code css Dinda dari sini*/
+.humberger {
+    display: none;
+}
+
 header {
 	height: 40px;
 	width: 100%;
