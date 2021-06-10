@@ -32,6 +32,24 @@
         font-size: 20px;
     }
 
+    .popup-responsive {
+        background-color: rgba(245, 247, 250, 0.8);
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px -1px 10px 1px;
+    }
+    
+    .popup-responsive a {
+        text-decoration: none;
+        padding: 10px 0;
+        color: rgb(103, 116, 138);
+    }
+    
+    .popup-responsive a:hover {
+        background-color: rgba(193,207,230,0.5);
+    }
     /* sampai disini */
 
     /* bagian main dari sini */
