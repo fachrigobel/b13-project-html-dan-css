@@ -95,6 +95,10 @@ header {
 	z-index: 10;
 }
 
+.popup-responsive {
+    display: none;
+}
+
 .header-container {
 	width: 100%;
 	padding: 0;
