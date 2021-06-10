@@ -1,3 +1,109 @@
+@media screen and (max-width: 1000px) {
+    /* header dari sini */
+    .header-left-nav {
+        display: none;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .humberger {
+        float: right;
+        /* border: 1px solid black; */
+        line-height: 40px;
+        width: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .humberger:hover {
+        background-color: rgba(193,207,230,0.5);
+    }
+
+    .humberger a {
+        color: rgb(103, 116, 138);
+    }
+
+    .humberger span {
+        font-size: 20px;
+    }
+    /* sampai disini */
+
+    /* main dimulai dari sini */
+    main {
+        margin-top: 20px;
+    }
+
+    .main-contents {
+        margin: 15px;
+        padding: 48px 40px 40px;
+        position: relative;
+    }
+
+    .main-content-left {
+        width: 80%;
+        padding-right: 250px;
+    }
+
+    .main-content-left h1 {
+        font-size: 28px;
+    }
+
+    .main-content-left h3 {
+        font-size: 15px;
+        padding: 10px;
+        line-height: 30px;
+    }
+
+    .main-study {
+        font-size: 10px;
+        padding: 16px 16px 8px;
+    }
+
+    .main-study p {
+        padding: 5px 8px;
+    }
+
+    .main-content-right {
+        width: 200px;
+        left: 400px;
+        right: 0;
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+      }
+
+      /* sampai disini */
+
+      /* bagian body-item dari sini */
+    .item-list {
+        width: 40%;
+    }
+
+    .container {
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    /* sampai disini */
+    
+    /* footer dari sini */
+    .footer-list {
+        margin-right: 0;
+    }
+
+    .copyright {
+        position: absolute;
+        width: 100%;
+        display: block;
+    }
+    /* sampai disini */
+}
+
 @media screen and (max-width: 670px) {
     /* bagian header dari sini */
 
@@ -32,24 +138,6 @@
         font-size: 20px;
     }
 
-    .popup-responsive {
-        background-color: rgba(245, 247, 250, 0.8);
-        width: 100%;
-        position: relative;
-        flex-direction: column;
-        text-align: center;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px -1px 10px 1px;
-    }
-    
-    .popup-responsive a {
-        text-decoration: none;
-        padding: 10px 0;
-        color: rgb(103, 116, 138);
-    }
-    
-    .popup-responsive a:hover {
-        background-color: rgba(193,207,230,0.5);
-    }
     /* sampai disini */
 
     /* bagian main dari sini */
@@ -69,7 +157,8 @@
         flex: none;
         width: 100%;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 200px;
+        padding-right: 0;
     }
 
     .main-content-left h1 {
@@ -111,7 +200,7 @@
         position: absolute;
         left: 0; 
         right: 0; 
-        top: 15px;
+        top: 50px;
         margin-left: auto; 
         margin-right: auto;
     }
