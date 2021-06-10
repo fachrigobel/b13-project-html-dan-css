@@ -27,10 +27,17 @@
                 <a href="#">Kelompok B13 <span class="fa fa-caret-down"></span></a>
                 <a href="#"><span class="fa fa-bell"></span></a>
             </div>
-            <div class="humberger">
+            <div class="humberger" onclick="myFunction()">
                 <a href="#"><span class="fa fa-bars"></span></a>
             </div>
 	    </div>
+        <div class="popup-responsive" onclick="myFunction()">
+            <a href="#">Tim Kelompok B13</a>
+            <a href="#">Pelajaran</a>
+            <a href="#">Slide Library</a>
+            <a href="#">Peringkat</a>
+            <a href="#">Bantuan</a>
+        </div>
         <!-- sampai disini -->
     </header>
 
@@ -223,6 +230,17 @@
             <!-- sampai disini -->
         </div>
     </footer>
+    <script>
+        var popup = document.getElementsByClassName("popup-responsive");
+        popup[0].style.display = "none";
 
+        function myFunction() {
+            if(popup[0].style.display == "none") {
+               popup[0].style.display = "flex";
+            } else {
+                popup[0].style.display = "none"; 
+            }
+        }
+    </script>
 </body>
 </html>
