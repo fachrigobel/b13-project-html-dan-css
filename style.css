@@ -89,7 +89,7 @@ main {
 header {
 	height: 40px;
 	width: 100%;
-	background-color: rgba(245, 247, 250, 0.8);
+	background-color: rgba(245, 247, 250, 1);
 	position: fixed;
 	top: 0;
 	z-index: 10;
@@ -141,10 +141,9 @@ header {
 	line-height: 40px;
 }
 .header-logo img {
-	width: 90%;
+	width: 100%;
 	vertical-align: middle;
 	max-width: 100%;
-	height: 40px;
 	border: 0;
 }
 .header-logo:hover{
